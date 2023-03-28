@@ -228,6 +228,147 @@ section.sessao-3 .box-verde.box-jornal .img-jornal {
   width: 250px;
 }
 /*fim sessao-3*/
+/*sessao-4*/
+section.sessao-4 {
+  position: relative;
+  padding: 40px 0;
+  background: linear-gradient(90deg, #ffffff, #dce1e2);
+}
+section.sessao-4::before {
+  content: '';
+  background: url('../img/detalhe-degrade-topo.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  height: 50px;
+  width: 100%;
+  top: -49px;
+  position: absolute;
+}
+section.sessao-4::after {
+  content: '';
+  background: url('../img/detalhe-degrade-baixo.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  height: 50px;
+  width: 100%;
+  bottom: -49px;
+  position: absolute;
+}
+section.sessao-4 h1 {
+  margin: 0 auto 40px auto;
+  font-size: 40px;
+}
+section.sessao-4 h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: var(--medium);
+  margin-bottom: 25px;
+}
+section.sessao-4 h3 {
+  text-align: center;
+  font-size: 23px;
+  width: 55%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: var(--bold);
+  margin-bottom: 15px;
+}
+section.sessao-4 h4 {
+  color: #54c076;
+  font-size: 30px;
+  text-align: center;
+  font-weight: var(--bold);
+  margin-bottom: 50px;
+}
+section.sessao-4 p {
+  font-size: 18px;
+}
+section.sessao-4 p strong {
+  color: #54c076;
+}
+section.sessao-4 h5 {
+  text-align: center;
+  font-weight: var(--bold);
+  margin: 40px auto;
+  width: 50%;
+  font-size: 18px;
+}
+/*fim sessao-4*/
+/*sessao-5*/
+section.sessao-5 {
+  padding-top: 80px;
+}
+section.sessao-5 h1 {
+  margin: 0 auto 30px auto;
+  font-size: 40px;
+}
+section.sessao-5 h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: var(--bold);
+  margin: 30px;
+}
+section.sessao-5 p {
+  font-size: 18px;
+}
+section.sessao-5 h3 {
+  font-size: 23px;
+  font-weight: var(--bold);
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+section.sessao-5 .estrada-pins {
+  position: relative;
+}
+section.sessao-5 .estrada-pins .pin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: var(--bold);
+  color: #54c076;
+  font-size: 15px;
+}
+section.sessao-5 .estrada-pins .pin .icon {
+  width: 80px;
+}
+section.sessao-5 .estrada-pins .estrada {
+  margin-top: 150px;
+}
+section.sessao-5 .estrada-pins .pin-1 {
+  bottom: 11vw;
+  left: 1vw;
+}
+section.sessao-5 .estrada-pins .pin-2 {
+  bottom: 18vw;
+  left: 18vw;
+}
+section.sessao-5 .estrada-pins .pin-3 {
+  bottom: 14vw;
+  left: 48vw;
+}
+section.sessao-5 .estrada-pins .pin-4 {
+  bottom: 10vw;
+  left: 59vw;
+}
+section.sessao-5 .estrada-pins .pin-5 {
+  bottom: 5vw;
+  left: 77vw;
+}
+section.sessao-5 .estrada-pins .descricao {
+  position: absolute;
+  bottom: 2vw;
+  left: 5vw;
+  font-weight: var(--bold);
+  line-height: 1.2;
+  width: 50%;
+}
+/*fim sessao-5*/
 /*footer*/
 footer {
   padding: 40px 0;
@@ -289,6 +430,20 @@ footer a:hover {
     width: 58%;
   }
   /*fim sessao-2*/
+  /*sessao-4*/
+  section.sessao-4 h3 {
+    width: 65%;
+  }
+  /*fim sessao-4*/
+  /*sessao-5*/
+  section.sessao-5 .estrada-pins .pin-3 {
+    left: 40vw;
+  }
+  section.sessao-5 .estrada-pins .descricao {
+    font-size: 17px;
+    width: 55%;
+  }
+  /*fim sessao-5*/
 }
 
 @media (max-width: 991px) {
@@ -333,6 +488,14 @@ footer a:hover {
     width: 75%;
   }
   /*fim sessao-3*/
+  /*sessao-4*/
+  section.sessao-4 h3 {
+    width: 82%;
+  }
+  section.sessao-4 h5 {
+    width: 70%;
+  }
+  /*fim sessao-4*/
   /*footer*/
   footer {
     font-size: 13px;
@@ -383,6 +546,18 @@ footer a:hover {
     width: 100%;
   }
   /*fim sessao-3*/
+  /*sessao-4*/
+  section.sessao-4 h4 {
+    margin-bottom: 25px;
+  }
+  section.sessao-4 h3 {
+    width: 100%;
+    font-size: 20px;
+  }
+  section.sessao-4 h5 {
+    width: 100%;
+  }
+  /*fim sessao-4*/
 }
 
 @media (max-width: 575px) {
@@ -428,6 +603,11 @@ footer a:hover {
     margin: 0 auto;
   }
   /*fim sessoa-3*/
+  /*sessao-4*/
+  section.sessao-4 p {
+    font-size: 16px;
+  }
+  /*fim sessao-4*/
   /*footer*/
   footer {
     font-size: 10px;
