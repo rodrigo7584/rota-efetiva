@@ -308,7 +308,7 @@ section.sessao-5 h2 {
   font-size: 20px;
   text-align: center;
   font-weight: var(--bold);
-  margin: 30px;
+  margin: 30px 0;
 }
 section.sessao-5 p {
   font-size: 18px;
@@ -436,8 +436,12 @@ footer a:hover {
   }
   /*fim sessao-4*/
   /*sessao-5*/
+
   section.sessao-5 .estrada-pins .pin-3 {
     left: 40vw;
+  }
+  section.sessao-5 .estrada-pins .pin-4 {
+    left: 58vw;
   }
   section.sessao-5 .estrada-pins .descricao {
     font-size: 17px;
@@ -496,6 +500,26 @@ footer a:hover {
     width: 70%;
   }
   /*fim sessao-4*/
+  /*sessao-5*/
+  section.sessao-5 .estrada-pins .pin-1 {
+    bottom: 17vw;
+  }
+  section.sessao-5 .estrada-pins .pin-2 {
+    bottom: 26vw;
+  }
+  section.sessao-5 .estrada-pins .pin-3 {
+    bottom: 21vw;
+  }
+  section.sessao-5 .estrada-pins .pin-4 {
+    bottom: 12vw;
+  }
+  section.sessao-5 .estrada-pins .pin-5 {
+    bottom: 11vw;
+  }
+  section.sessao-5 .estrada-pins .descricao {
+    position: relative;
+  }
+  /*end sessao-5*/
   /*footer*/
   footer {
     font-size: 13px;
@@ -558,6 +582,42 @@ footer a:hover {
     width: 100%;
   }
   /*fim sessao-4*/
+  /*sessao-5*/
+  section.sessao-5 p.titulo {
+    font-size: 14px;
+  }
+  section.sessao-5 .estrada-pins .pin {
+    width: 140px;
+  }
+  section.sessao-5 .estrada-pins .pin .icon {
+    width: 65px;
+  }
+  section.sessao-5 .estrada-pins .pin-1 {
+    bottom: 19vw;
+  }
+  section.sessao-5 .estrada-pins .pin-2 {
+    bottom: 28vw;
+  }
+  section.sessao-5 .estrada-pins .pin-3 {
+    bottom: 22vw;
+  }
+  section.sessao-5 .estrada-pins .pin-4 {
+    bottom: 15vw;
+    left: 57vw;
+  }
+  section.sessao-5 .estrada-pins .pin-5 {
+    left: 74vw;
+    bottom: 13vw;
+  }
+  section.sessao-5 .estrada-pins .estrada {
+    margin-top: 110px;
+  }
+  section.sessao-5 .estrada-pins .descricao {
+    margin-top: 20px;
+    width: 100%;
+    left: unset;
+  }
+  /*en sessao-5*/
 }
 
 @media (max-width: 575px) {
@@ -608,6 +668,42 @@ footer a:hover {
     font-size: 16px;
   }
   /*fim sessao-4*/
+  /*sessao-5*/
+  section.sessao-5 h2 {
+    font-size: 17px;
+  }
+  section.sessao-5 h3 {
+    margin: 10px 0 20px 0;
+  }
+  section.sessao-5 p {
+    font-size: 16px;
+  }
+  section.sessao-5 p.titulo {
+    font-size: 18px;
+    text-align: left;
+  }
+  section.sessao-5 .estrada-pins {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section.sessao-5 .estrada-pins .pin {
+    position: relative;
+    flex-direction: row;
+    bottom: unset;
+    left: unset;
+    width: 100%;
+  }
+  section.sessao-5 .estrada-pins .pin p {
+    order: 2;
+  }
+  section.sessao-5 .estrada-pins .pin img {
+    order: 1;
+  }
+  section.sessao-5 .estrada-pins .estrada {
+    margin-top: 20px;
+  }
+
+  /*end sessao-5*/
   /*footer*/
   footer {
     font-size: 10px;
