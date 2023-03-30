@@ -27,8 +27,9 @@ new Glider(caroucelPrints, {
   slidesToScroll: 1,
   draggable: true,
   scrollLock: true,
+  dots: '.caroucel-prints .dots',
   arrows: {
-    prev: '.caroucel-prints .btn-back',
-    next: '.caroucel-prints .btn-next'
+    prev: '.caroucel-prints .botao-back',
+    next: '.caroucel-prints .botao-next'
   }
 })
