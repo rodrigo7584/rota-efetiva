@@ -565,6 +565,48 @@ section.sessao-8 h1 span.titulo-borda {
   border-color: #000000;
 }
 /*fim sessao-8*/
+/*sessao-9*/
+section.sessao-9::before {
+  content: '';
+  background: url('../img/detalhe-branca-baixo.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  height: 80px;
+  width: 100%;
+  top: -1px;
+  position: absolute;
+}
+section.sessao-9 {
+  background: linear-gradient(90deg, #ffffff, #dce1e2);
+  padding: 100px 0 50px 0;
+}
+section.sessao-9 .pin {
+  width: 120px;
+}
+section.sessao-9 h1 {
+  color: #54c076;
+  font-size: 25px;
+}
+section.sessao-9 h2 {
+  font-weight: var(--bold);
+  font-size: 30px;
+}
+
+section.sessao-9 .setas-mobile {
+  display: none;
+}
+section.sessao-9 h3 {
+  font-weight: var(--bold);
+  font-size: 35px;
+}
+section.sessao-9 {
+  font-size: 16px;
+  text-align: center;
+}
+/*fim sessao-9*/
+/*sessao-10*/
+/*fim sessao-10*/
 /*footer*/
 footer {
   padding: 40px 0;
@@ -960,6 +1002,11 @@ footer a:hover {
     font-size: 28px;
   }
   /*fim sessao-8*/
+  /*sessao-9*/
+  section.sessao-9 h2 {
+    font-size: 23px;
+  }
+  /*fim sessao-9*/
   /*footer*/
   footer {
     font-size: 10px;
@@ -976,4 +1023,9 @@ footer a:hover {
     font-size: 28px;
   }
   /*fim sessao-1*/
+  /*sessao-9*/
+  section.sessao-9 .pin {
+    width: 100px;
+  }
+  /*fim sessao-9*/
 }
