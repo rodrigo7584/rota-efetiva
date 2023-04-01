@@ -1,6 +1,6 @@
-const accordion = document.querySelectorAll('.accordion')
+const acordeon = document.querySelectorAll('.acordeon')
 
-accordion.forEach(item => {
+acordeon.forEach(item => {
   const question = item.querySelector('.question')
   const answer = item.querySelector('.answer')
 
