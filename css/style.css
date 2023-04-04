@@ -396,7 +396,12 @@ section.sessao-3 .box-verde.box-jornal .img-jornal {
 section.sessao-4 {
   position: relative;
   padding: 40px 0;
-  background: linear-gradient(90deg, #ffffff, #dce1e2);
+  background:url('../img/bolinhas-verdes-1.svg'),url('../img/listras-verdes-1.png'), linear-gradient(90deg, #ffffff, #dce1e2);
+  background-repeat: no-repeat;
+  background-size: 5vw auto, 10vw auto, 100% 100%;
+    background-position-y: 5%, 58%;
+    background-position-x: 100%, 0%;
+
 }
 section.sessao-4::before {
   content: '';
@@ -536,6 +541,11 @@ section.sessao-5 .estrada-pins .descricao {
 /*sessao-6*/
 section.sessao-6 {
   padding: 70px 0px 30px 0;
+  background-image: url('../img/planta-5.svg'), url('../img/listras-verdes-2.png'),url('../img/bolinhas-verdes-2.svg');
+  background-repeat: no-repeat;
+  background-size: 15vw, 11vw,10vw;
+  background-position-x: 100%,100%,0%;
+  background-position-y: 7%,90%,50%;
 }
 section.sessao-6 h2 {
   text-align: center;
@@ -620,6 +630,10 @@ section.sessao-7 p.descritivo:nth-of-type(2) {
 /*sessao-8*/
 section.sessao-8 {
   padding: 30px 0;
+  background-image: url('../img/planta-6.svg');
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-position: 100% 95%;
 }
 section.sessao-8 .caroucel-prints .slide {
   display: flex;
@@ -653,7 +667,11 @@ section.sessao-9::before {
   position: absolute;
 }
 section.sessao-9 {
-  background: linear-gradient(90deg, #ffffff, #dce1e2);
+  background: url('../img/bolinhas-verdes-1.svg'),linear-gradient(90deg, #ffffff, #dce1e2);
+  background-repeat: no-repeat;
+  background-size: 5vw, 100% 100%;
+  background-position-x: 0%;
+  background-position-y: 85%;
   padding: 100px 0 50px 0;
 }
 section.sessao-9 .pin {
@@ -682,7 +700,12 @@ section.sessao-9 {
 /*fim sessao-9*/
 /*sessao-10*/
 section.sessao-10 {
-  background: #54c076;
+  background-color: #54c076;
+  background-image: url('../img/listras-brancas-1.png');
+  background-repeat: no-repeat;
+  background-size: 10vw;
+  background-position-x: 100%;
+  background-position-y: 2%;
   padding: 50px 0;
 }
 section.sessao-10::after {
@@ -784,6 +807,11 @@ section.sessao-10 .tabela-desktop .coluna-precos div:last-child {
 /*sessao-11*/
 section.sessao-11 {
   padding: 80px 0 0 0;
+  background-image: url('../img/planta-7.svg');
+  background-repeat: no-repeat;
+  background-size: 13vw;
+  background-position-x: 100%;
+  background-position-y: 70%;
 }
 section.sessao-11::after {
   content: '';
@@ -851,6 +879,11 @@ section.sessao-11 .metodo {
 section.sessao-12 {
   padding: 160px 0;
   background: #000000;
+  background-image: url('../img/bolinhas-verdes-2.svg'), url('../img/degrade-2.png');
+  background-repeat: no-repeat;
+  background-size: 8vw, 60%;
+  background-position-x: 0%,100%;
+  background-position-y: 30%,105%;
 }
 section.sessao-12 h2 {
   text-align: center;
@@ -966,7 +999,10 @@ section.sessao-14:after {
 }
 section.sessao-14 {
   padding: 60px 0px;
-  background: linear-gradient(90deg, #dce1e2, #ffffff);
+  background: url('../img/planta-6.svg'),linear-gradient(90deg, #dce1e2, #ffffff);
+  background-repeat: no-repeat;
+  background-size: 18vw,100% 100%;
+  background-position: 100% 50%,100% 100%;
   text-align: center;
 }
 section.sessao-14 h1 {
@@ -1048,6 +1084,11 @@ section.sessao-15 p {
 section.sessao-16 {
   padding: 70px 0;
   background-color: #000000;
+  background-image:  url(../img/degrade-2.png);
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  background-position-x: right;
+  background-position-y:bottom;
 }
 section.sessao-16 h1 {
   color: #54c076;
@@ -1112,6 +1153,7 @@ section.sessao-18 h2 {
 section.sessao-18 .acordeon {
   background: #54c076;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 section.sessao-18 .acordeon .question {
   display: grid;
@@ -1227,6 +1269,10 @@ footer a:hover {
   }
   /*fim sessao-2*/
   /*sessao-4*/
+  section.sessao-4 {
+    background-size: 7vw auto, 8vw auto, 100% 100%;
+    background-position-y: 5%, 56%;
+  }
   section.sessao-4 h3 {
     width: 65%;
   }
@@ -1245,6 +1291,10 @@ footer a:hover {
   }
   /*fim sessao-5*/
   /*sessao-6*/
+  section.sessao-6 {
+    background-size: 20vw, 15vw,14vw;
+    background-position-y: 7%,90%,59%;
+}
   section.sessao-6 h2 {
     width: 100%;
   }
@@ -1259,6 +1309,12 @@ footer a:hover {
     font-size: 18px;
   }
   /*fim sessao-13*/
+  /*sessao-14*/
+  section.sessao-14 {
+    background-position: 100% 40%,100% 100%;
+    background-size: 14vw,100% 100%;
+  }
+  /*fim sessao-14*/
 }
 
 @media (max-width: 991px) {
@@ -1349,7 +1405,20 @@ footer a:hover {
     margin-bottom: 80px;
   }
   /*fim sessao-7*/
+  /*sessa-8*/
+  section.sessao-8 {
+       background-size: 13vw;
+  }
+    /*fim sessao-8*/
+  /*fim sessao-9*/
+    section.sessao-9 {
+    background-size: 7vw, 100% 100%;
+      }
+  /*fim sessao-9*/
   /*sessao-10*/
+  section.sessao-10 {
+    background-size: 14vw;
+}
   section.sessao-10 h3 {
     font-size: 25px;
   }
@@ -1638,6 +1707,9 @@ footer a:hover {
   section.sessao-4 p {
     font-size: 16px;
   }
+  section.sessao-4 {
+   background: linear-gradient(90deg, #ffffff, #dce1e2);
+  }
   /*fim sessao-4*/
   /*sessao-5*/
   section.sessao-5 h2 {
@@ -1694,6 +1766,9 @@ footer a:hover {
   }
   /*fim sessao-7*/
   /*sessao-8*/
+  section.sessao-8 {
+    background-size: 20vw;
+  }
   section.sessao-8 h1 {
     font-size: 25px;
   }
@@ -1702,6 +1777,9 @@ footer a:hover {
   }
   /*fim sessao-8*/
   /*sessao-9*/
+  section.sessao-9{
+    background: linear-gradient(90deg, #ffffff, #dce1e2);
+  }
   section.sessao-9 h2 {
     font-size: 23px;
   }
@@ -1746,6 +1824,10 @@ footer a:hover {
   }
 
   /*fim sessao-11*/
+  /*sessao-12*/
+  section.sessao-12 {
+    background-size: 8vw, 60%;
+  }
   /*sessao-13*/
   section.sessao-13 h1 {
     font-size: 30px;
